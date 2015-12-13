@@ -5,3 +5,7 @@ I've had the name 'Mushrooms From Hell' floating around in my head for a while n
 And so, I commit the crime of naming a website something that has absolutely nothing directly to do with its content. But hey, This will serve as an experimental plateau for my coding, git-ing, philosophical meanderings and whatever else I may find it mutating into.
 
 Firstly, have a look at my logos!
+
+# SASS
+
+Part of the reason for this project is to try and use SASS. I'm trying to separate my css out into different .scss files depending on their function. Hopefully resulting in modules that I can resuse on other projects. So far my 'SASS' is going to be a lot of regular CSS, but I'll try and use as much as SASS techniques as I can as I move forward.
