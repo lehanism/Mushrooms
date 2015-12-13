@@ -31,8 +31,7 @@ html {
 /* setting relative sizes for various text elements*/
 
 body, p {
-  font-size: 1rem;
-  margin: 0 0 1.5rem 0;
+  margin: 0;
   /*line-height: 1.3rem;*/
 }
 
@@ -49,17 +48,17 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: normal;
   /*line-height: 1.4rem;*/
 }
 
 .large_text {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   /*line-height: 1.0rem;*/
 }
 
 .small_text {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   /*line-height: 1.0rem;*/
 }
