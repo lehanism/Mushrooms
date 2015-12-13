@@ -1,0 +1,65 @@
+/* Text
+H1    2.6rem
+H2    2.0rem
+H3    1.4rem
+Body Text 1.0rem
+Large Text 1.2rem
+Small Text  0.8rem
+-------------------------------------------------- */
+
+/*Calling fonts*/
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+
+/* setting base sizes for each breakpoint*/
+
+/*Default - (Mobile First)*/
+html {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/*Desktop*/
+@media (min-width: 640px) {
+  html {
+  font-size: 20px;
+  line-height: 1.4;
+  }
+}
+
+/* setting relative sizes for various text elements*/
+
+body, p {
+  font-size: 1rem;
+  margin: 0 0 1.5rem 0;
+  /*line-height: 1.3rem;*/
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: normal;
+  /*line-height: 2.6rem;*/
+}
+
+h2 {
+  font-size: 2.0rem;
+  font-weight: normal;
+  /*line-height: 2.0rem;*/
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  /*line-height: 1.4rem;*/
+}
+
+.large_text {
+  font-size: 1.2rem;
+  /*line-height: 1.0rem;*/
+}
+
+.small_text {
+  font-size: 0.8rem;
+  /*line-height: 1.0rem;*/
+}

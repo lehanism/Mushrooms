@@ -1,0 +1,59 @@
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*mobile first - container starts with 20px padding either side*/
+.container {
+  position: relative;
+  width: 100%;
+  /*change below to alter max-width of content*/
+  max-width: 1024px; 
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+.column {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+}
+
+/*For devices larger than 640px grid turns on and margins either side of container become 5% with no pixel padding*/
+@media (min-width: 640px) {
+  .container {
+    width: 90%;
+    padding: 0; }
+  .column {
+    margin-left: 4%; }
+  .column:first-child {
+    margin-left: 0; }
+
+  .full-width.column              { width: 100%; margin-left: 0; }  
+
+  .one-half.column                { width: 48%; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-quarter.column             { width: 22%; }
+  .two-quarter.column             { width: 48%; }
+  .three-quarter.column           { width: 74%; }
+
+  .one-half.column                { width: 48%; }
+
+            
+
+}
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* END OF GRID */
