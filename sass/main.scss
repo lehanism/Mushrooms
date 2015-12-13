@@ -1,4 +1,9 @@
+// ------ general
 @import "partials/_reset.scss";
 @import "partials/_grids.scss";
 @import "partials/_typography.scss";
 @import "partials/_image_control.scss";
+
+// ------ site specifc layout
+
+@import "mushroom_style/header.scss";

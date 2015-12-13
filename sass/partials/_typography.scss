@@ -9,13 +9,13 @@ Small Text  0.8rem
 
 /*Calling fonts*/
 
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Montserrat:400,700);
 
 /* setting base sizes for each breakpoint*/
 
 /*Default - (Mobile First)*/
 html {
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.4;
 }

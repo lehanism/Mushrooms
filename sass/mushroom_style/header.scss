@@ -1,0 +1,13 @@
+/* Mushroom - Header */
+
+.logo {
+	width: 70%;
+	margin: 40px auto 20px auto;
+}
+
+@media (min-width: 640px) {
+
+	.logo {
+		width: 40%;
+	}
+}
