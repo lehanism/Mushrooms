@@ -1,0 +1,12 @@
+/* Fixed Header -----------------------------*/
+.fixed_header {
+	position: fixed;
+	width: 100%;
+	overflow: auto;
+	height: 70;
+}
+
+.fixed_header_content {
+	float: right;
+	padding: 0 10% 0 0;
+}
