@@ -1,12 +1,18 @@
 /* Fixed Header -----------------------------*/
 .fixed_header {
+	box-sizing: border-box;
 	position: fixed;
 	width: 100%;
 	overflow: auto;
-	height: 70;
 }
 
 .fixed_header_content {
+	box-sizing: border-box;
 	float: right;
 	padding: 0 10% 0 0;
+	line-height: 70px;
+
+	h4 {
+		margin: 0;
+	}
 }

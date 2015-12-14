@@ -1,0 +1,35 @@
+/* Hidden Fixed Header -----------------------------*/
+.hidden_fixed_header {
+	z-index: 100;
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	overflow: auto;
+	height: 70px;
+	/*border-bottom: solid 2px #eee;*/
+	display: none;
+}
+
+.hidden_content_left {
+	box-sizing: border-box;
+	float: left;
+	height: 70px;
+	padding: 5px 0 5px 10%;
+
+	img {
+		vertical-align: center;
+		height: 58px;
+		width: auto; 
+	}
+}
+
+.hidden_content_right {
+	box-sizing: border-box;
+	float: right;
+	padding: 0 10% 0 0;
+	line-height: 70px;
+
+	h4 {
+		margin: 0;
+	}
+}
