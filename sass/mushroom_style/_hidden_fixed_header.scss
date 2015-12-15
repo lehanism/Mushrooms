@@ -6,21 +6,29 @@
 	width: 100%;
 	overflow: auto;
 	height: 70px;
+	transition: all 0.8s;
 	/*border-bottom: solid 2px #eee;*/
-	display: none;
+}
+
+#change_opacity {
+	opacity: 0;
 }
 
 .hidden_content_left {
 	box-sizing: border-box;
 	float: left;
 	height: 70px;
-	padding: 5px 0 5px 10%;
+	transition: all 1s;
 
 	img {
 		vertical-align: center;
 		height: 58px;
 		width: auto; 
 	}
+}
+
+#change_padding {
+	padding: 5px 0 5px 30%;
 }
 
 .hidden_content_right {
