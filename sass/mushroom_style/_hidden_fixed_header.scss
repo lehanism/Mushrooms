@@ -7,7 +7,6 @@
 	overflow: auto;
 	height: 70px;
 	transition: all 0.8s;
-	/*border-bottom: solid 2px #eee;*/
 }
 
 #change_opacity {
@@ -21,6 +20,8 @@
 	transition: all 1s;
 
 	img {
+		float: left;
+		display: inline;
 		vertical-align: center;
 		height: 58px;
 		width: auto; 
@@ -31,13 +32,29 @@
 	padding: 5px 0 5px 30%;
 }
 
+h4 {
+	transition: all 1s;
+	float: left;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0 0 0 4%;
+	height: 60px;
+	line-height: 60px;
+	color: #a02400;
+	display: inline-block;
+}
+
+#reveal_htext {
+	opacity: 0;
+}
+
 .hidden_content_right {
 	box-sizing: border-box;
 	float: right;
-	padding: 0 10% 0 0;
+	padding: 5px 10% 5px 0;
 	line-height: 70px;
 
 	h4 {
-		margin: 0;
+		color: #000;
 	}
 }
