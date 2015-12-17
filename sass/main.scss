@@ -1,9 +1,5 @@
 // ------ general
 
-body {
-	height: 9999px;
-}
-
 @import "partials/_reset.scss";
 @import "partials/_grids.scss";
 @import "partials/_typography.scss";
@@ -13,4 +9,5 @@ body {
 
 @import "mushroom_style/_fixed_header.scss";
 @import "mushroom_style/_header.scss";
-@import "mushroom_style/_hidden_fixed_header.scss"
+@import "mushroom_style/_hidden_fixed_header.scss";
+@import "mushroom_style/_home_content.scss";
